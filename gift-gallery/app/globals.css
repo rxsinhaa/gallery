@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bungee: var(--font-bungee);
+
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+  --color-baby-pink: #f9cdd0;
+  --color-background-cream: #eff8e2;
+}
+
+:root {
+  --background: #eff8e2;
+  --foreground: #333333;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-bungee), sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+/* Custom Utilities */
+.text-shadows {
+  text-shadow:
+    3px 3px 0 #f49b90,
+    6px 6px 0 #f28b7d,
+    9px 9px 0 #f07a6a,
+    12px 12px 0 #ee6352;
+  color: #f6aca2;
+  font-family: var(--font-bungee);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+
+.icon-baby-pink {
+  filter: invert(86%) sepia(21%) saturate(928%) hue-rotate(293deg) brightness(101%) contrast(96%);
+}
