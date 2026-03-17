@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# gift_her_a_website
 
-## Getting Started
+(part of a larger project)
 
-First, run the development server:
+A concept project where I explored building **personalized, giftable websites**—mainly around Valentine’s.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Idea
+Instead of physical gifts, users could send a **custom interactive website** to someone—filled with memories, animations, and playful interactions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This was also meant to scale into a **service offering multiple themed website experiences**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What I Built
+- Romantic, animation-heavy UI  
+- Interactive components (scratch cards, playful buttons, etc.)  
+- Procedural visuals (floating hearts, canvas-based effects)  
+- A working **photo memory gallery** (polaroid-style, interactive)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Stack
+- Next.js (App Router) + React 19  
+- TypeScript  
+- TailwindCSS + custom animations  
+- Three.js (WebGL shaders)  
+- Framer Motion  
 
-## Learn More
+## Status
+Put on hold due to other commitments/projects.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Note
+This was one of several ideas I was exploring around **selling experience-based websites**.
